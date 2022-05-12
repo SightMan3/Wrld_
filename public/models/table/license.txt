@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Crafting Table V2
+* source:	https://sketchfab.com/3d-models/3d-crafting-table-v2-9e295b15a6c04f11a66c376a8eff10cf
+* author:	FishyBusiness (https://sketchfab.com/FishyBusiness)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Crafting Table V2" (https://sketchfab.com/3d-models/3d-crafting-table-v2-9e295b15a6c04f11a66c376a8eff10cf) by FishyBusiness (https://sketchfab.com/FishyBusiness) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

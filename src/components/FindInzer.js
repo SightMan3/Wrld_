@@ -11,18 +11,19 @@ function FindInzer()
         event.preventDefault();
 
         fetch(
-            "http://localhost:4554/wrld_api.php/"
+            "http://localhost:4554/wrld_api.php/get_inzerat"
         )
-        .then((res) => console.log(res))
+        .then((res) => res.json())
+        .then((json) => setData(json))
         
         
     }
 
-    function postInzer(event) 
+    /*function postInzer(event) 
     {
         event.preventDefault();
 
-        fetch('http://localhost:4554/wrld_api.php/inzerat', {
+        fetch('http://localhost:4554/wrld_api.php/set_inzerat', {
             method: "POST",
             mode: "cors",
             // headers: { 'Content-Type': 'application/json' },
@@ -30,7 +31,7 @@ function FindInzer()
         })
         .then((res) => res.json())
         .then((json) => { console.log(json) })
-    }
+    } */
 
     return(
         <div className="wrap">
@@ -41,7 +42,7 @@ function FindInzer()
                     e.preventDefault();
                     console.log(data);
                 }}>show</button>
-                <button onClick={postInzer}>post</button>
+                
             </form>
         </div>
     )

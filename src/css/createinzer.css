@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+.Createinzer-main {
+  background-color: #f9dec9;
+  min-height: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Createinzer-main .Createinzer-sidebar {
+  width: 15%;
+}
+
+.Createinzer-main .Createinzer-page {
+  margin-top: 3%;
+  min-height: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper {
+  background-color: white;
+  height: 90%;
+  width: 90%;
+  padding-bottom: 5%;
+  border-radius: 100px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content {
+  margin-top: 4%;
+  background-color: white;
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* base info end*/
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .header {
+  color: black;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 67px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .basic_info {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .basic_info .fir_r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 20%;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .basic_info .fir_r input {
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 25px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  height: 70%;
+  width: 30%;
+  margin: 1.5%;
+  padding: 15px;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .basic_info .sec_r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
+  width: 100%;
+  height: 20%;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .basic_info .sec_r input {
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 25px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  height: 70%;
+  margin: 1.5%;
+  width: 45%;
+  padding: 15px;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .basic_info .reverted_dir {
+  text-align: right;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .Tree {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .Tree p {
+  font-family: 'Jura', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  padding: 60px 30px 30px 30px;
+  width: 80%;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .dynamic_content {
+  width: 100%;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .dynamic_content p {
+  width: 100%;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .dynamic_content span {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .dynamic_content span .Component_pos_selector {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 50%;
+  margin: 1%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .dynamic_content span .Component_pos_selector:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Createinzer-main .Createinzer-page .inzerat_paper .content .dynamic_content span .Component_pos_selector_selected {
+  border: 3px solid green;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=createinzer.css.map */

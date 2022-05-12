@@ -32,6 +32,20 @@ $main_bg: #f9dec9;
             left: 50%;
         }
 
+        .black
+        {
+            background-color: black;
+            color: white;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+    
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+
         button {
             outline: none;
             border: none;
@@ -52,6 +66,12 @@ $main_bg: #f9dec9;
 
             transition: all .2s ease-in-out;
 
+           
+            
+        }
+
+        .white {
+            
             &:hover {
                 background-color: rgba(255, 255, 255, $alpha: 0.3);
                 transform: scale(1.1);
@@ -60,11 +80,12 @@ $main_bg: #f9dec9;
             &:active {
                 transform: scale(0.9);
             }
-            
         }
+
+       
     }
 
-    section
+    .main-section
     {
         height: 90%;
         width: 100%;
@@ -93,6 +114,23 @@ $main_bg: #f9dec9;
                 font-size: 2rem;
             }
 
+            .dynamic {
+                font-size: 8rem;
+                font-family: 'Exo 2', sans-serif;
+
+               
+                p {
+                    font-size: 8rem;
+                    font-family: 'Exo 2', sans-serif;
+                   
+                }
+
+              
+
+
+            }
+
+           
             .buttons {
                 display: flex;
                 justify-content: center;

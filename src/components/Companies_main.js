@@ -1,14 +1,15 @@
 import '../app.css';
 import Scene from './scene3d';
 import {Navigate, useLocation, useNavigate} from 'react-router-dom';
+import Table from './table3d';
 
-function Main() {
+function Company_main() {
     const navigate = useNavigate();
 
-    function route_find(page)
+    function route_find()
     {
 
-        navigate(page);
+        navigate('/Create')
     }
 
     return (
@@ -16,35 +17,38 @@ function Main() {
 
             <div className='nav'>
                 
-                <button>CV template</button>
+                <button className='black'
+                onClick={
+                    () => { navigate('/') }
+                }>Log Out</button>
                 <div className= "vertical"></div>
                 <button onClick={
-                    () => { route_find("company-login") }
-                }>companies</button>
+                    () => { navigate('/') }
+                } className='white'>Profile</button>
             </div>
 
             <section className='main-section'>
                 <div className='content'>
                     <h1>
-                        Need a <br/> 
+                        Create <br/> 
                         <div className='dynamic'>
-                            <p>Job ?</p>
+                            <p>Oportunities</p>
                         </div> 
                     </h1>
                     
                     <p>Start by clicking here 	&#11088;</p>
 
                     <div className='buttons'>
-                        <button className='btn-grad' onClick={
-                            () => { route_find("find") }
-                        }>Find</button>
-                       
+
+                        <button className='btn-grad'
+                            onClick={route_find}
+                        >create</button>
                     </div>
 
                 </div>
 
                 <div className='scene_3d'>
-                    <Scene />
+                    <Table />
                 </div>
             </section>
         </div>
@@ -52,4 +56,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default Company_main;

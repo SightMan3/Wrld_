@@ -1,0 +1,19 @@
+$main_bg: #f9dec9;
+
+.wrap_company {
+    height: 100%;
+    width: 100%;
+    background-color: $main_bg;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}

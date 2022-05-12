@@ -36,6 +36,21 @@ body, html {
   left: 50%;
 }
 
+.App .nav .black {
+  background-color: black;
+  color: white;
+}
+
+.App .nav .black:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.App .nav .black:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .App .nav button {
   outline: none;
   border: none;
@@ -53,18 +68,18 @@ body, html {
   transition: all .2s ease-in-out;
 }
 
-.App .nav button:hover {
+.App .nav .white:hover {
   background-color: rgba(255, 255, 255, 0.3);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.App .nav button:active {
+.App .nav .white:active {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
 
-.App section {
+.App .main-section {
   height: 90%;
   width: 100%;
   display: -webkit-box;
@@ -78,7 +93,7 @@ body, html {
           align-items: center;
 }
 
-.App section .content {
+.App .main-section .content {
   background-color: #f9dec9;
   height: 100%;
   width: 50%;
@@ -97,17 +112,27 @@ body, html {
           flex-direction: column;
 }
 
-.App section .content h1 {
+.App .main-section .content h1 {
   font-size: 8rem;
   font-family: 'Exo 2', sans-serif;
 }
 
-.App section .content p {
+.App .main-section .content p {
   font-family: 'Jura', sans-serif;
   font-size: 2rem;
 }
 
-.App section .content .buttons {
+.App .main-section .content .dynamic {
+  font-size: 8rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.App .main-section .content .dynamic p {
+  font-size: 8rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.App .main-section .content .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,12 +153,12 @@ body, html {
   font-family: 'Jura', sans-serif;
 }
 
-.App section .content .buttons .btn-grad {
+.App .main-section .content .buttons .btn-grad {
   background-image: -webkit-gradient(linear, left top, right top, from(#77A1D3), color-stop(51%, #79CBCA), to(#77A1D3));
   background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
 }
 
-.App section .content .buttons .btn-grad {
+.App .main-section .content .buttons .btn-grad {
   margin: 0 30px 0 30px;
   padding: 15px 45px;
   text-align: center;
@@ -148,14 +173,14 @@ body, html {
   display: block;
 }
 
-.App section .content .buttons .btn-grad:hover {
+.App .main-section .content .buttons .btn-grad:hover {
   background-position: right center;
   /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
 
-.App section .content .buttons button {
+.App .main-section .content .buttons button {
   outline: none;
   font-family: 'Exo 2', sans-serif;
   font-size: 20px;
@@ -165,12 +190,12 @@ body, html {
   width: 170px;
 }
 
-.App section .content .buttons button:active {
+.App .main-section .content .buttons button:active {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
 
-.App section .scene_3d {
+.App .main-section .scene_3d {
   background-color: #f9dec9;
   height: 100%;
   width: 50%;

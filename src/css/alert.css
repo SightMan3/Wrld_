@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+.wrap_alert {
+  height: 100%;
+  width: 100%;
+  background-color: #f9dec9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.d3 {
+  height: 50%;
+  width: 100%;
+}
+
+.cont {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cont h1 {
+  font-size: 5rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.cont p {
+  font-family: 'Jura', sans-serif;
+  font-size: 2rem;
+}
+
+.cont .proceed-btn {
+  outline: none;
+  border: none;
+  background-color: #f9dec9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  height: 50px;
+  width: 10%;
+  margin: 2%;
+  border-radius: 11px;
+  color: black;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.cont .proceed-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cont .proceed-btn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=alert.css.map */
